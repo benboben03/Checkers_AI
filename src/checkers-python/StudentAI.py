@@ -176,7 +176,7 @@ class MonteCarloTreeSearch():
             
         return self.the_chosen_one()
 
-     def the_chosen_one(self) -> Move:
+    def the_chosen_one(self) -> Move:
         '''
         Node with the highest visit count is selected
         '''
