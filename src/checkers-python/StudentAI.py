@@ -19,7 +19,7 @@ class StudentAI():
         self.monte_carlo_tree = MonteCarloTreeSearch(TreeNode(self.board, self.color, None, None))
         self.time_adjustment_coefficient = (self.row * self.col)/2
         self.num_moves = 2
-        self.timer = 50
+        self.timer = 125
         
     def get_move(self, move) -> Move:
         '''
